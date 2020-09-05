@@ -1,0 +1,22 @@
+name: SkiqLobby
+main: pl.skiq.skiqLobby.Main
+version: 1.0
+commands:
+  gm:
+    description: gamemode
+    usage: /<command> <mode>
+    permission: skiqlobby.gamemode
+    permission-message: '&4Brak uprawnien.'
+  gamemode:
+      description: gamemode
+      usage: /<command> <mode> [gracz]
+      permission: skiqlobby.gamemode
+      permission-message: '&4Brak uprawnien.'
+permissions:
+  skiqlobby.gamemode:
+    description: SkiqLobby Gamemode
+    default: op
+  skiqlobby.vip:
+    default: op
+  skiqlobby.admin:
+    default: op
